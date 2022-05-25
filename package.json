@@ -1,0 +1,30 @@
+{
+  "name": "react-from-scratch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -c webpack.config.js",
+    "dev": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "@types/react": "^18.0.9",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "devDependencies": {
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
